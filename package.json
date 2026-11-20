@@ -1,0 +1,35 @@
+{
+  "name": "chatgpt-windows-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that asks ChatGPT through the Codex CLI signed in with your ChatGPT plan (Windows port of syedazharmbnr1/claude-chatgpt-mcp; no UI automation, no API key)",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": {
+    "chatgpt-windows-mcp": "index.mjs"
+  },
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "node test.mjs"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1502OB/chatgpt-mcp-win11.git"
+  },
+  "keywords": [
+    "mcp",
+    "chatgpt",
+    "codex",
+    "windows",
+    "claude"
+  ],
+  "os": [
+    "win32"
+  ]
+}
